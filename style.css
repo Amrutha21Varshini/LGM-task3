@@ -1,0 +1,123 @@
+h1{
+    background: magenta;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+    background-image:linear-gradient(#39065A,#6A0572) ;
+}
+
+h1{
+    text-align: center;
+    padding: 1%;
+}
+#img::before {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+
+}
+
+.am{
+    margin-top: 3%;
+    height:40px;
+    padding:0 10px;
+    width: 95%;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    outline: none;
+    margin-bottom:2%;
+    margin-left: 5%;
+}
+#img::-webkit-file-upload-button {
+  visibility: visible;
+}
+
+#img::before {
+  display: inline-block;
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+
+}
+.input-box, .gender, .check-box{
+    color:#ccc;
+    margin:5px 0;
+}
+.check-box{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.btn-container button{
+width: 30%;
+padding: 2%;
+color: #fff;
+border-radius: 5px;
+background-image:linear-gradient(#19A7CE,#146C94);
+cursor:pointer;
+}
+.btn-container button{
+    width: 30%;
+    padding: 2%;
+    color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(#19A7CE,#146C94);
+    cursor:pointer;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+      }
+      
+      .line {
+        margin-left: 20%;
+        border-left: 4px solid rgb(255, 255, 255);
+      }
+      
+      .Enrolled {
+        margin-top: 2rem;
+      }
+      
+      .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        border-radius: 5%;
+        border: 2px solid rgb(226, 111, 117);
+        padding: 20px 30px;
+        text-align: center;
+        background-color: white;
+      
+      }
+      #image{
+        width: 120px;
+        margin: 10px;
+      }
+      .title{
+        font-size:20px;
+        margin:7px;
+      }
+      .text{
+        margin:10px;
+      }
+      .image>img{
+        width:120px;
+        margin: 10px;
+      }

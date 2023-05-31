@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><h1>Student registeration form</h1></div>
+    
+    <div class="container">  
+        <div class="content">
+                <form action="index.js" method="get">
+                    <div class="input-box">
+                        <label><b>Name&nbsp;</b></label><br>
+                        <input class="am" id="Name" type="text" name="Name"  placeholder="enter your name" required>
+                  
+                        <label><b>image</b></label><br>
+                        <input class="am" type="file" id="img" name="img"  placeholder="enter your image" accept="image/*" required>
+    
+                        <label><b>Email</b></label><br>
+                        <input class="am" id="mail" type="email" name="mail"  placeholder="enter Email address" required>
+                    
+                        <label><b>website</b></label><br>
+                        <input class="am" id="web" type="text" name="web" placeholder="enter website" required>
+                    </div>
+                    <span class="gender"><b>Gender</b><br>
+                        &nbsp;&nbsp;&nbsp;<label>male</label>
+                        <input type="radio" name="male" id="male" value="male">
+                        &nbsp;&nbsp;<label>female</label>
+                        <input type="radio" name="male" id="female" value="female">
+                    </span>
+                    <p class="check-box">
+                        <label><b>Skills&nbsp;</b></label><br>
+                        &nbsp;&nbsp;&nbsp;<label>html</label>
+                        <input id="c1" type="checkbox" name="html" value="html">
+                        &nbsp;<label>css</label>
+                        <input id="c2" type="checkbox" name="css" value="css">
+                        &nbsp;<label>js</label>
+                        <input id="c3" type="checkbox" name="js" value="java script">
+                    </p>
+                    <div class="btn-container">
+                        <button id="resetbtn" type="reset">Reset</button>
+                        <button id="btn" type="button">register</button>
+                        
+                    </div>
+                </form>
+        </div>
+        
+        <div class="line"></div>
+        <div class="right">
+            <h1 class="Enrolled">Enrolled Students</h1>
+            <div class="cards" id="cards"></div>
+        </div>
+    </div> 
+        
+    
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
